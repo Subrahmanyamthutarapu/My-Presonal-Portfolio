@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/212217c59e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <video autoplay loop muted src="subbu.mp4"></video>
+                 <h1 class="logo"><span>S</span>ub<span>b</span>u</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Devoloper</p>
+                <h1>Hi, I'M <span>Subbu</span> <br> From India</h1>
+                <img src="bg.png">
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Subhash.jpg" class="College">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Self Subbu I am a passionate and skilled web developer with expertise in building dynamic, user-friendly, and responsive websites and applications. With a strong understanding of front-end and back-end technologies, I specialize in creating seamless user experiences through clean code and efficient designs</p>
+               <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Eduction')">Eduction</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Web devolopment</span><br>Web/App devolopment</li>
+                    <li><span>XML</span><br>Code The Entire Book</li>
+                    <li><span>AWS</span><br>Handle The Tools</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2023</span><br>Full Stack devolopment Intership Program in YEXPONENT</li>
+                    <li><span>2024</span><br>Amazon Web Services Intership Program in SKILLINDUCE</li>
+                    <li><span>2024</span><br>XML Intership Program in Preyfox Technology</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Eduction">
+                <ul>
+                    <li><span>2024</span><br>BSC in PYDAH Kakinada</li>
+                    <li><span>2021</span><br>MPC in Hanumanturaya Juniour College</li>
+                </ul>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------services-------------------- -->
+     <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a passionate and skilled web developer with expertise in building dynamic, user-friendly, and responsive websites and applications.</p>
+                    <a href="#" class="subbu">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI Design</h2>
+                    <p>I am a passionate and skilled web developer with expertise in building dynamic, user-friendly, and responsive websites and applications.</p>
+                    <a href="#" class="subbu">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I am a passionate and skilled web developer with expertise in building dynamic, user-friendly, and responsive websites and applications.</p>
+                    <a href="#" class="subbu">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- -----------------------portfolio-------------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg" height="64%" width="75%">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- ------------------------------contact------------------------------------>
+       <div id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> subbuthutarapu123@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i> 8688155314</p>
+                <div class="social-icon">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a></li>
+                <a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="get">
+            <input type="text" name="name" placeholder="your name" required>
+            <input type="email" name="email" placeholder="your email" required>
+            <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyeright &#169; Subbu. Made with <i class="fa-solid fa-heart"></i> by own</p>
+    </div>
+   </div>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
